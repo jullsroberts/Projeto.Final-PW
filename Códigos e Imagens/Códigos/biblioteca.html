@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>📚 Alexandria</h2>
+
+        <nav>
+            <a href="home.html">🏠 Home</a>
+            <a href="biblioteca.html" class="active">📖 Biblioteca</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+
+        <section class="secao">
+            <h2>📖 Lendo</h2>
+            <div id="lendo" class="livros"></div>
+            <div class="prateleira"></div>
+        </section>
+
+        <section class="secao">
+            <h2>⏭ Próximos</h2>
+            <div id="proximo" class="livros"></div>
+            <div class="prateleira"></div>
+        </section>
+
+        <section class="secao">
+            <h2>✅ Finalizados</h2>
+            <div id="finalizado" class="livros"></div>
+            <div class="prateleira"></div>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
